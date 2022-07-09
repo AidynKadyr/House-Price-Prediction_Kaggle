@@ -30,7 +30,7 @@ jobs:
     - name: Run flake8
       run: flake8
     - name: Run Mypy
-      run: mypy pandaseda
+      run: mypy Kaggle-House-Price-Prediction
 - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
@@ -41,4 +41,4 @@ jobs:
     - name: Run flake8
       run: flake8
     - name: Run Mypy
-      run: mypy pandaseda
+      run: mypy Kaggle-House-Price-Prediction
